@@ -1,5 +1,5 @@
 # Use an existing image as a base
-FROM nginx:latest
+FROM centos:latest
 RUN sudo yum install nginx -y
 
  
